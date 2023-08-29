@@ -1,0 +1,174 @@
+body{
+    margin: 1px;
+}
+.upperbox{
+    background-image: linear-gradient(to right, red ,green 25%,yellow);
+    font-weight: bold ;
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+.secondboxparent{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+
+}
+.secondboxchild{
+    margin: 10px;
+    height: 80px;
+    width: 800px;
+    background-color: lightsteelblue;
+    border: 2px solid red;
+    border-radius: 20px;
+    text-align: center;
+}
+.lists{
+    display: inline-block;
+}
+.thirdboxparent{
+    height: 200px;
+width: 100%;
+background-color: aquamarine;
+border: 2px solid red;
+display: grid;
+gap: 10px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+
+}
+.contentbox{
+    background-color: aqua;
+    border-radius: 15px;
+    border: 2px solid green;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+}
+.box1{
+    grid-column:1/2 ;
+    grid-row:1/2 ;
+}
+.box2{
+    grid-column:2/3 ;
+    grid-row:1/2 ;
+}
+.box3{
+    grid-column:3/4 ;
+    grid-row:1/2 ;
+}
+.box4{
+    margin-top: -9px;
+    grid-column:2/3 ;
+    grid grid-row:2/3 ;
+}
+.gradient1{
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    background-image: linear-gradient(to right, red 5% ,yellow,red );
+font-size: 15px;
+font-weight: bold;
+text-decoration: underline;
+text-align: center;
+}
+.gradient2parent{
+    height: 200px;
+    width: 100%;
+    margin-top: 5px;
+    background-image: radial-gradient(blue 20%, green);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.yellowbox{
+    margin: 15px;
+    height: 100px;
+    width: 190px;
+    background-color: yellow;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.gridparent{
+    margin-top: 5px;
+    height: 300px;
+    display: grid;
+grid-template-columns: auto auto auto 100px ;
+grid-template-rows: 40px auto 120px 20px;
+gap: 10px;
+border: 1px solid grey;
+}
+.box{
+    border: 1px black;
+    color: white;
+}
+.child1{
+    background-color: red;
+    grid-column:1/5 ;
+    grid-row: 1/2;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.child2{
+    padding: 10px;
+    background-color: lightgreen;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.child3{
+    background-color:blueviolet ;
+    grid-column:2/3 ;
+    grid-row: 2/3;
+    font-size: 25px;
+    font-weight: bold;
+padding-top: 10px;
+}
+.child4{
+    background-color:blue ;
+    grid-column:3/4 ;
+    grid-row:2/3 ;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ol{
+    padding-left: 17px;
+}
+.child5{
+    background-color: rgba(59, 57, 57, 0.829);
+    grid-column: 4/5;
+    grid-row:2/4 ;
+    text-decoration: underline white;
+    font-weight: bold;
+}
+.child6{
+    background-color:orange ;
+    grid-column:1/4 ;
+    grid-row: 3/4;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.child7{
+    background-color: aqua;
+    grid-column:1/5 ;
+    grid-row: 4/5;
+    color: black;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
